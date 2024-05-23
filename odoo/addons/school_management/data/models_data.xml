@@ -1,0 +1,6 @@
+<odoo>
+    <record id="model_school_student" model="ir.model">
+        <field name="name">school.student</field>
+        <field name="model">school.student</field>
+    </record>
+</odoo>

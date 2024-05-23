@@ -1,0 +1,340 @@
+2024-05-17 02:14:49,035 17820 INFO ? odoo: Odoo version 17.0-20240515 
+2024-05-17 02:14:49,036 17820 INFO ? odoo: Using configuration file at D:\Odoo\server\odoo.conf 
+2024-05-17 02:14:49,036 17820 INFO ? odoo: addons paths: ['D:\\Odoo\\server\\odoo\\addons', 'd:\\odoo\\sessions\\addons\\17.0', 'd:\\odoo\\server\\odoo\\addons'] 
+2024-05-17 02:14:49,036 17820 INFO ? odoo: database: openpg@localhost:5432 
+2024-05-17 02:14:50,462 17820 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo\thirdparty\wkhtmltopdf.exe 
+2024-05-17 02:14:50,764 17820 WARNING ? py.warnings: D:\Odoo\python\lib\site-packages\docutils\utils\smartquotes.py:639: DeprecationWarning: invalid escape sequence '\['
+  File "D:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 179, in run
+    main(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 172, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo\server\odoo\service\server.py", line 1348, in start
+    load_server_wide_modules()
+  File "D:\Odoo\server\odoo\service\server.py", line 1251, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo\server\odoo\modules\module.py", line 395, in load_openerp_module
+    __import__(qualname)
+  File "D:\Odoo\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo\server\odoo\addons\base\models\__init__.py", line 28, in <module>
+    from . import ir_module
+  File "D:\Odoo\server\odoo\addons\base\models\ir_module.py", line 20, in <module>
+    from docutils.core import publish_string
+  File "D:\Odoo\python\lib\site-packages\docutils\core.py", line 21, in <module>
+    from docutils import frontend, io, utils, readers, writers
+  File "D:\Odoo\python\lib\site-packages\docutils\readers\__init__.py", line 15, in <module>
+    from docutils.transforms import universal
+  File "D:\Odoo\python\lib\site-packages\docutils\transforms\universal.py", line 24, in <module>
+    from docutils.utils import smartquotes
+  File "D:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo\server\odoo\netsvc.py", line 288, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-05-17 02:14:50,959 17820 WARNING ? py.warnings: D:\Odoo\python\lib\site-packages\vobject\base.py:736: DeprecationWarning: invalid escape sequence '\-'
+  File "D:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 179, in run
+    main(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 172, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo\server\odoo\service\server.py", line 1348, in start
+    load_server_wide_modules()
+  File "D:\Odoo\server\odoo\service\server.py", line 1251, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo\server\odoo\modules\module.py", line 395, in load_openerp_module
+    __import__(qualname)
+  File "D:\Odoo\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo\server\odoo\addons\web\models\__init__.py", line 11, in <module>
+    from . import res_partner
+  File "D:\Odoo\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "D:\Odoo\python\lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "D:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo\server\odoo\netsvc.py", line 288, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-05-17 02:14:50,961 17820 WARNING ? py.warnings: D:\Odoo\python\lib\site-packages\vobject\base.py:1219: DeprecationWarning: invalid escape sequence '\;'
+  File "D:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 179, in run
+    main(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 172, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo\server\odoo\service\server.py", line 1348, in start
+    load_server_wide_modules()
+  File "D:\Odoo\server\odoo\service\server.py", line 1251, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo\server\odoo\modules\module.py", line 395, in load_openerp_module
+    __import__(qualname)
+  File "D:\Odoo\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo\server\odoo\addons\web\models\__init__.py", line 11, in <module>
+    from . import res_partner
+  File "D:\Odoo\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "D:\Odoo\python\lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "D:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo\server\odoo\netsvc.py", line 288, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-05-17 02:14:50,961 17820 WARNING ? py.warnings: D:\Odoo\python\lib\site-packages\vobject\base.py:1219: DeprecationWarning: invalid escape sequence '\,'
+  File "D:\Odoo\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\Odoo\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 179, in run
+    main(args)
+  File "D:\Odoo\server\odoo\cli\server.py", line 172, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\Odoo\server\odoo\service\server.py", line 1348, in start
+    load_server_wide_modules()
+  File "D:\Odoo\server\odoo\service\server.py", line 1251, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\Odoo\server\odoo\modules\module.py", line 395, in load_openerp_module
+    __import__(qualname)
+  File "D:\Odoo\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\Odoo\server\odoo\addons\web\models\__init__.py", line 11, in <module>
+    from . import res_partner
+  File "D:\Odoo\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "D:\Odoo\python\lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "D:\Odoo\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\Odoo\server\odoo\netsvc.py", line 288, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-05-17 02:14:50,984 17820 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-17 02:14:50,984 17820 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-17 02:14:56,004 19312 INFO ? odoo: Odoo version 17.0-20240515 
+2024-05-17 02:14:56,004 19312 INFO ? odoo: Using configuration file at D:\Odoo\server\odoo.conf 
+2024-05-17 02:14:56,004 19312 INFO ? odoo: addons paths: ['D:\\Odoo\\server\\odoo\\addons', 'd:\\odoo\\sessions\\addons\\17.0', 'd:\\odoo\\server\\odoo\\addons'] 
+2024-05-17 02:14:56,005 19312 INFO ? odoo: database: openpg@localhost:5432 
+2024-05-17 02:14:56,123 19312 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo\thirdparty\wkhtmltopdf.exe 
+2024-05-17 02:14:56,295 19312 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-4SSFG6O:8069 
+2024-05-17 02:14:56,319 19312 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:14:56,346 19312 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:15:08,408 19312 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:15:08,422 19312 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:15:08] "GET /websocket HTTP/1.1" 404 - 0 0.000 0.043
+2024-05-17 02:16:09,732 19312 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:16:09,733 19312 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:16:09] "GET /websocket HTTP/1.1" 404 - 0 0.000 0.039
+2024-05-17 02:17:11,037 19312 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:17:11,037 19312 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:17:11] "GET /websocket HTTP/1.1" 404 - 0 0.000 0.028
+2024-05-17 02:18:12,241 19312 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:18:12,241 19312 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:18:12] "GET /websocket HTTP/1.1" 404 - 0 0.000 0.027
+2024-05-17 02:19:13,534 19312 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:19:13,534 19312 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:19:13] "GET /websocket HTTP/1.1" 404 - 0 0.000 0.028
+2024-05-17 02:20:14,740 19312 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:20:14,741 19312 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:20:14] "GET /websocket HTTP/1.1" 404 - 0 0.000 0.035
+2024-05-17 02:21:15,300 19312 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:21:15,300 19312 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:21:15] "GET /websocket HTTP/1.1" 404 - 0 0.000 0.035
+2024-05-17 02:21:38,239 19312 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-17 02:21:38,239 19312 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-17 02:21:38,244 19312 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 0 connections  
+2024-05-17 02:22:11,123 8620 INFO ? odoo: Odoo version 17.0-20240515 
+2024-05-17 02:22:11,123 8620 INFO ? odoo: Using configuration file at D:\Odoo\server\odoo.conf 
+2024-05-17 02:22:11,123 8620 INFO ? odoo: addons paths: ['D:\\Odoo\\server\\odoo\\addons', 'd:\\odoo\\sessions\\addons\\17.0', 'd:\\odoo\\server\\odoo\\addons'] 
+2024-05-17 02:22:11,123 8620 INFO ? odoo: database: openpg@localhost:5432 
+2024-05-17 02:22:11,303 8620 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo\thirdparty\wkhtmltopdf.exe 
+2024-05-17 02:22:11,563 8620 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-4SSFG6O:8069 
+2024-05-17 02:22:11,592 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:22:11,715 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:11,727 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:11,871 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:11,897 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:11] "GET /bus/websocket_worker_bundle?v=1.0.7 HTTP/1.1" 404 - 0 0.000 0.211
+2024-05-17 02:24:12,034 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:12,035 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:12] "POST /mail/init_messaging HTTP/1.1" 404 - 0 0.000 0.031
+2024-05-17 02:24:12,093 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:12,326 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:12,326 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:12] "GET /bus/websocket_worker_bundle?v=1.0.7 HTTP/1.1" 404 - 0 0.000 0.132
+2024-05-17 02:24:12,354 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:12,354 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:12] "GET /web/manifest.webmanifest HTTP/1.1" 404 - 0 0.000 0.147
+2024-05-17 02:24:12,706 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:12] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 404 - 0 0.000 0.647
+2024-05-17 02:24:12,709 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:12] "POST /web/action/load HTTP/1.1" 404 - 0 0.000 1.025
+2024-05-17 02:24:14,329 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:14,330 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:14] "POST /web/webclient/version_info HTTP/1.1" 200 - 0 0.000 0.039
+2024-05-17 02:24:14,487 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:14,488 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:14] "GET /web/service-worker.js HTTP/1.1" 404 - 0 0.000 0.032
+2024-05-17 02:24:15,796 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:15,796 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:15] "GET /bus/websocket_worker_bundle?v=1.0.7 HTTP/1.1" 404 - 0 0.000 0.039
+2024-05-17 02:24:16,112 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:16,113 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:16] "POST /web/action/load HTTP/1.1" 404 - 0 0.000 0.029
+2024-05-17 02:24:16,144 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:16,145 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:16] "POST /mail/init_messaging HTTP/1.1" 404 - 0 0.000 0.042
+2024-05-17 02:24:16,178 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:16,179 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:16] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 404 - 0 0.000 0.048
+2024-05-17 02:24:16,224 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:16,224 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:16] "GET /bus/websocket_worker_bundle?v=1.0.7 HTTP/1.1" 404 - 0 0.000 0.027
+2024-05-17 02:24:16,283 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:16,283 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:16] "GET /web/manifest.webmanifest HTTP/1.1" 404 - 0 0.000 0.084
+2024-05-17 02:24:18,482 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:18,483 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:18] "POST /web/webclient/version_info HTTP/1.1" 200 - 0 0.000 0.028
+2024-05-17 02:24:18,509 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:18,509 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:18] "GET /web/service-worker.js HTTP/1.1" 404 - 0 0.000 0.053
+2024-05-17 02:24:47,311 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:47,312 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:47] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 404 - 0 0.000 0.028
+2024-05-17 02:24:49,031 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:49,032 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:49] "POST /web/webclient/version_info HTTP/1.1" 200 - 0 0.000 0.029
+2024-05-17 02:24:53,041 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:53,070 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:53,070 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:53] "GET /web HTTP/1.1" 303 - 0 0.000 0.060
+2024-05-17 02:24:53,116 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:53,558 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:53,621 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:53] "GET /web/database/selector HTTP/1.1" 200 - 0 0.000 0.548
+2024-05-17 02:24:55,779 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:24:55,780 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:24:55] "GET /web/service-worker.js HTTP/1.1" 404 - 0 0.000 0.041
+2024-05-17 02:34:54,458 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:34:54,458 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:34:54] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 404 - 0 0.000 0.105
+2024-05-17 02:34:56,308 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:34:56,311 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:34:56] "POST /web/webclient/version_info HTTP/1.1" 200 - 0 0.000 0.151
+2024-05-17 02:36:07,076 15548 INFO ? odoo: Odoo version 17.0-20240515 
+2024-05-17 02:36:07,076 15548 INFO ? odoo: Using configuration file at D:\Odoo\server\odoo.conf 
+2024-05-17 02:36:07,076 15548 INFO ? odoo: addons paths: ['D:\\Odoo\\server\\odoo\\addons', 'd:\\odoo\\sessions\\addons\\17.0', 'd:\\odoo\\server\\odoo\\addons'] 
+2024-05-17 02:36:07,076 15548 INFO ? odoo: database: openpg@localhost:5432 
+2024-05-17 02:36:08,270 15548 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo\thirdparty\wkhtmltopdf.exe 
+2024-05-17 02:36:09,568 15548 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-4SSFG6O:8069 
+2024-05-17 02:36:10,070 15548 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-17 02:36:10,071 15548 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-17 02:36:10,581 15548 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-05-17 02:36:18,261 16120 INFO ? odoo: Odoo version 17.0-20240515 
+2024-05-17 02:36:18,261 16120 INFO ? odoo: Using configuration file at D:\Odoo\server\odoo.conf 
+2024-05-17 02:36:18,261 16120 INFO ? odoo: addons paths: ['D:\\Odoo\\server\\odoo\\addons', 'd:\\odoo\\sessions\\addons\\17.0', 'd:\\odoo\\server\\odoo\\addons'] 
+2024-05-17 02:36:18,261 16120 INFO ? odoo: database: openpg@localhost:5432 
+2024-05-17 02:36:18,465 16120 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo\thirdparty\wkhtmltopdf.exe 
+2024-05-17 02:36:19,631 16120 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-4SSFG6O:8069 
+2024-05-17 02:37:04,848 16120 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-17 02:37:04,848 16120 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-17 02:37:04,962 16120 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-05-17 02:37:42,008 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:37:42,009 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:37:42] "GET / HTTP/1.1" 303 - 0 0.000 0.029
+2024-05-17 02:37:42,285 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:37:42,315 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:37:42,316 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:37:42] "GET /web HTTP/1.1" 303 - 0 0.000 0.063
+2024-05-17 02:37:42,345 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:37:42,786 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:37:42,830 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:37:42] "GET /web/database/selector HTTP/1.1" 200 - 0 0.000 0.510
+2024-05-17 02:37:45,781 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:37:45,781 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:37:45] "GET /web/service-worker.js HTTP/1.1" 404 - 0 0.000 0.027
+2024-05-17 02:39:17,227 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:39:18,835 8620 INFO None odoo.service.db: Create database `Odoo_1705`. 
+2024-05-17 02:39:18,861 8620 INFO None odoo.sql_db: Connection to the database failed 
+2024-05-17 02:39:18,862 8620 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "D:\Odoo\server\odoo\http.py", line 391, in dispatch_rpc
+    return dispatch(method, params)
+  File "D:\Odoo\server\odoo\service\db.py", line 488, in dispatch
+    return g[exp_method_name](*params)
+  File "<decorator-gen-20>", line 2, in exp_create_database
+  File "D:\Odoo\server\odoo\service\db.py", line 43, in if_db_mgt_enabled
+    return method(self, *args, **kwargs)
+  File "D:\Odoo\server\odoo\service\db.py", line 148, in exp_create_database
+    _create_empty_database(db_name)
+  File "D:\Odoo\server\odoo\service\db.py", line 101, in _create_empty_database
+    with closing(db.cursor()) as cr:
+  File "D:\Odoo\server\odoo\sql_db.py", line 752, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "D:\Odoo\server\odoo\sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-13>", line 2, in borrow
+  File "D:\Odoo\server\odoo\tools\func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "D:\Odoo\server\odoo\sql_db.py", line 681, in borrow
+    result = psycopg2.connect(
+  File "D:\Odoo\python\lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "openpg"
+
+2024-05-17 02:39:19,300 8620 INFO None odoo.sql_db: Connection to the database failed 
+2024-05-17 02:39:19,344 8620 INFO None werkzeug: 127.0.0.1 - - [17/May/2024 02:39:19] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 2.145
+2024-05-17 02:39:21,692 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:39:21,692 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:39:21] "GET /web/service-worker.js HTTP/1.1" 404 - 0 0.000 0.027
+2024-05-17 02:39:57,180 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:39:58,782 8620 INFO None odoo.service.db: Create database `Odoo_1705`. 
+2024-05-17 02:39:58,811 8620 INFO None odoo.sql_db: Connection to the database failed 
+2024-05-17 02:39:58,811 8620 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "D:\Odoo\server\odoo\http.py", line 391, in dispatch_rpc
+    return dispatch(method, params)
+  File "D:\Odoo\server\odoo\service\db.py", line 488, in dispatch
+    return g[exp_method_name](*params)
+  File "<decorator-gen-20>", line 2, in exp_create_database
+  File "D:\Odoo\server\odoo\service\db.py", line 43, in if_db_mgt_enabled
+    return method(self, *args, **kwargs)
+  File "D:\Odoo\server\odoo\service\db.py", line 148, in exp_create_database
+    _create_empty_database(db_name)
+  File "D:\Odoo\server\odoo\service\db.py", line 101, in _create_empty_database
+    with closing(db.cursor()) as cr:
+  File "D:\Odoo\server\odoo\sql_db.py", line 752, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "D:\Odoo\server\odoo\sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-13>", line 2, in borrow
+  File "D:\Odoo\server\odoo\tools\func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "D:\Odoo\server\odoo\sql_db.py", line 681, in borrow
+    result = psycopg2.connect(
+  File "D:\Odoo\python\lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "openpg"
+
+2024-05-17 02:39:59,242 8620 INFO None odoo.sql_db: Connection to the database failed 
+2024-05-17 02:39:59,288 8620 INFO None werkzeug: 127.0.0.1 - - [17/May/2024 02:39:59] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 2.144
+2024-05-17 02:40:01,362 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:40:01,362 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:40:01] "GET /web/service-worker.js HTTP/1.1" 404 - 0 0.000 0.027
+2024-05-17 02:40:38,335 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:40:40,003 8620 INFO None odoo.service.db: Create database `Odoo`. 
+2024-05-17 02:40:40,028 8620 INFO None odoo.sql_db: Connection to the database failed 
+2024-05-17 02:40:40,028 8620 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "D:\Odoo\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "D:\Odoo\server\odoo\http.py", line 391, in dispatch_rpc
+    return dispatch(method, params)
+  File "D:\Odoo\server\odoo\service\db.py", line 488, in dispatch
+    return g[exp_method_name](*params)
+  File "<decorator-gen-20>", line 2, in exp_create_database
+  File "D:\Odoo\server\odoo\service\db.py", line 43, in if_db_mgt_enabled
+    return method(self, *args, **kwargs)
+  File "D:\Odoo\server\odoo\service\db.py", line 148, in exp_create_database
+    _create_empty_database(db_name)
+  File "D:\Odoo\server\odoo\service\db.py", line 101, in _create_empty_database
+    with closing(db.cursor()) as cr:
+  File "D:\Odoo\server\odoo\sql_db.py", line 752, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "D:\Odoo\server\odoo\sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-13>", line 2, in borrow
+  File "D:\Odoo\server\odoo\tools\func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "D:\Odoo\server\odoo\sql_db.py", line 681, in borrow
+    result = psycopg2.connect(
+  File "D:\Odoo\python\lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "openpg"
+
+2024-05-17 02:40:40,459 8620 INFO None odoo.sql_db: Connection to the database failed 
+2024-05-17 02:40:40,505 8620 INFO None werkzeug: 127.0.0.1 - - [17/May/2024 02:40:40] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 2.197
+2024-05-17 02:40:42,539 8620 INFO ? odoo.sql_db: Connection to the database failed 
+2024-05-17 02:40:42,540 8620 INFO ? werkzeug: 127.0.0.1 - - [17/May/2024 02:40:42] "GET /web/service-worker.js HTTP/1.1" 404 - 0 0.000 0.027
+2024-05-17 02:42:01,899 8620 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-17 02:42:01,899 8620 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-17 02:42:01,906 8620 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 0 connections  
